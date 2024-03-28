@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+        var data=window.location.search;
+        var params=new URLSearchParams(data);
+       var name= params.get('name');
+       var Dob= params.get('Dob');
+       var Age= params.get('Age');
+       var Phone= params.get('Phone');
+       document.write("<h2>"+"Thank you! "+name+"<br>"+"</h2>");
+       document.write("Details are:"+"<br>")
+       document.write("Name: "+name+"<br>");
+       document.write("Dob: "+Dob+"<br>");
+       document.write("Age: "+Age+"<br>");
+       document.write("Phone: "+Phone+"<br>")
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Survey Form</title>
+<style>
+    body {
+      
+        background-color: grey;
+    }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    h2 {
+        text-align: center;
+    }
+    #name, #email, #birthdate, #textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Survey Form</h2>
+    <form>
+        Name:<input type="text" id="name" required>
+
+        Email: <input type="email" id="email" required>
+
+        Date of Birth: <input type="date" id="birthdate" required>
+
+    Gender:<br/>
+    <input type="radio" id="male"> Male
+    <input type="radio" id="female"> Female
+    <input type="radio" id="other"> Other
+
+        
+       <br/> Interests:<br/>
+       <input type="checkbox" id="sports">Sports
+        <input type="checkbox" id="music">Music
+       <input type="checkbox" id="movies">Movies
+        <input type="checkbox" id="books">Books<br/>
+
+       Comments:<br/>
+        <textarea id="comments" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>

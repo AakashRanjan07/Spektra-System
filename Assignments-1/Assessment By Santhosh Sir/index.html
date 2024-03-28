@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <script>
+      function myfunc() {
+        let name = document.getElementById("name");
+        var result = confirm(
+          "Please confirm your details, Press OK else Cancel"
+        );
+        if (!result) {
+          alert("Fill the details again");
+        }
+      }
+    </script>
+    <div id="form">
+      <form action="final.html" >
+        <h2>Login form</h2>
+
+        <p id="name">
+          Name:
+          <input placeholder="Enter Your Name" type="text" name="name" />
+        </p>
+
+        <p>
+          DOB:
+          <input placeholder="Enter Your DOB" type="date" name="Dob" />
+        </p>
+        <p>
+          Age:
+          <input placeholder="Enter Your Age" type="number" name="Age" />
+        </p>
+
+        <p>
+          Phone number:
+          <input
+            placeholder="Enter Your Phone Number"
+            type="tel"
+            name="Phone"
+          />
+        </p>
+
+        <div><button onclick="myfunc()">submit</button></div>
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>

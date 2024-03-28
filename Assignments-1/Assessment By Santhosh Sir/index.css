@@ -1,0 +1,17 @@
+
+body {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  padding: 15x;
+  border: 1px solid skyblue;
+  background-color: aqua;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+    <style>
+     body{
+      background-color: lightblue;
+      margin-left: 500px;
+     }
+     #form{
+  margin-top: 100px;  
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  padding: 80px;
+  border: 5px solid black;
+  background-color: grey;
+}
+</style>
+  </head>
+
+  <body>
+  
+    <div id="form">
+      <form action="last.html">
+        <h2>Student Details</h2>
+        <p id="name">
+          First Name:
+          <input placeholder="Enter Your First Name" type="text" />
+        </p>
+        <p>
+          Last Name:
+          <input placeholder="Enter Your Last Name" type="text"  />
+        </p>
+
+        <p>
+          Age:
+          <input placeholder="Enter Your Age" type="number"  />
+        </p>
+
+        <p>
+          Phone number: <input placeholder="Enter Your Phone Number" type="tel" required/>
+        </p>
+        <p>
+          Email id: <input placeholder="Enter Your email-id" type="email" required/>
+        </p>
+
+        <div><input type="submit" style="color: green;"/></div>
+        <input type="reset" style="color: red;" />
+      </form>
+    </div>
+  </body>
+</html>
